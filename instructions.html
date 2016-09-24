@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>CS4249 Assignment 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Welcome</a></li>
+                        <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
+                        <li class="active"><a href="instructions.html">Instructions</a></li>
+                        <li><a href="experiment.html">Experiment</a></li>
+                        <li><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Instructions</h1>
+                    <hr>
+                    <p>Dear participant <span class="js-pid pid"></span>, please read the instructions before the experiment.
+
+                    <p>You have been assigned with a participant ID. Please login with your ID first.<p>
+                    <p>Then please go to the 'Pre-Questionaire' and answer all the questions before the experiment.<p>
+                    <p> After that, you can start the test. Click 'Experiment' Tab on the top and you will see the following table.</p>
+                    <IMG src='img/experiment snapshot.PNG' alt="Experiment Instruction">
+                    <p>You are tasked to find content inside the pink box over all the open windows, and copy-paste the content to the Text Editor with either AutoComPaste (ACP) or traditional Ctrl C, Ctrl V technique.</p>
+                    <p>Please read the instruction carefully which technique you have been required.</p>
+                    <p>You are also required to do single paste or multiple paste according to the instruction.</p>
+                    <p>For Multiple paste, please easte for 3 times.</p>
+                    <p>After each trial, please click 'Next Task' button, you will proceed with next experiment condition.</p>
+                    <p>After all 12 trials, you are also invited to fill in a post-experiment survey.</p>
+                    <p>Thank you for your patiently reading the instruction. If you are ready for the experiment, please click 'Next' Button below.</p>
+                  
+                    <form class="form-inline">
+                        <button type="submit" class="btn btn-primary btn-lg">Next</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/DataStorage.js"></script>
+        <script src="js/ACPToolKit.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            $(function () {
+                $('form').submit(function (event) {
+                    event.preventDefault();
+                    window.location = 'experiment.html';
+                });
+            });
+        </script>
+    </body>
+</html>
