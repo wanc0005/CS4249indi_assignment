@@ -1,0 +1,88 @@
+{
+    "experiments": [
+      {
+        "technique": "AUTOCOMPASTE",
+        "granularity": "Phrase",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "acceptor atoms?"
+      },
+      { 
+            "technique": "AUTOCOMPASTE",
+            "granularity": "Phrase",
+            "usagescenario":  "Multiple Paste",
+            "data_file": "data/texts.json",
+            "stimuli": "acceptor atoms?" 
+        },
+      {
+        "technique": "AUTOCOMPASTE",
+        "granularity": "Sentence",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "What is AC coupling?"
+      },
+      { 
+            "technique": "AUTOCOMPASTE",
+          "granularity": "Sentence",
+          "usagescenario":  "Multiple Paste",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? " 
+        },
+      {
+        "technique": "AUTOCOMPASTE",
+        "granularity": "Paragraph",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+      },
+      { 
+            "technique": "AUTOCOMPASTE",
+          "granularity": "Paragraph",
+          "usagescenario": "Multiple Paste",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+        },
+      {
+        "technique": "TRADITIONAL",
+        "granularity": "Phrase",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "acceptor atoms"
+      },
+      {
+        "technique": "TRADITIONAL",
+        "granularity": "Phrase",
+        "usagescenario": "Multiple Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "acceptor atoms"
+      },
+       {
+        "technique": "TRADITIONAL",
+        "granularity": "Sentence",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "What is acceptor atoms?"
+      },
+      {
+        "technique": "TRADITIONAL",
+        "granularity": "Sentence",
+        "usagescenario": "Multiple Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "What is acceptor atoms?"
+      },
+       {
+        "technique": "TRADITIONAL",
+        "granularity": "Paragraph",
+        "usagescenario": "Single Paste",
+        "data_file": "data/texts.json",
+        "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage."
+      },
+      { 
+            "technique": "TRADITIONAL",
+          "granularity": "Paragraph",
+          "usagescenario": "Multiple Paste",
+            "data_file": "data/texts.json",
+            "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
+      }        
+    ]
+}
